@@ -13,6 +13,7 @@ public class Person {
     }
 
     // why is this called a GETTER??
+    // Bc firstName and lastName are private - we are retrieving the value of the data firstName and lastName
     public String getFirstName() {
         return firstName;
     }
